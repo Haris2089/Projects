@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* Lab 6 Solution YP*/
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em;
+}
+.hcenter {
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	padding: 0.5em;
+}
+img {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.textmenu {
+	text-align: center;
+}
+
+/*.textmenubar{
+	visibility: hidden;
+}*/
+
+body {
+/*	display: -ms-grid;
+	display: grid;
+	-ms-grid-template-columns:  auto auto auto;
+	-ms-grid-columns:  auto auto auto;
+	-mis-grid-rows: auto auto auto auto auto;
+	grid-template-columns:  auto auto auto;
+	-ms-grid-gap: 10px;
+	grid-gap: 10px;*/
+}
+
+
+header {
+	grid-column: 1 / span 3;
+	/*background-color: lavender;*/
+}
+
+#survey {
+	grid-column: 1;
+	grid-row: 3;
+	/*background-color: orange;*/
+	padding: 5px;
+}
+
+#welcome {
+	grid-column: 1;
+	grid-row: 2;
+	padding: 5px;
+	/*background-color: lightgreen;*/
+}
+
+#services {
+	grid-column: 2;
+	grid-row: 2 / span 2;
+	/*background-color: tan;*/
+	padding: 5px;
+}
+
+#location {
+	grid-column: 3;
+	grid-row: 2 / span 2;
+	padding: 5px;
+	/*background-color: moccasin;*/
+}
+
+
+#gallery {
+	grid-column: 1 / span 3;
+	padding: 5px;
+	/*background-color: pink;*/
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	/*background-color: gold;*/
+}
+
+.flex-container div {
+	margin: 20px;
+	/*background-color: lightyellow;*/
+}
+
+
+	
+footer {
+	grid-column: 1 /span 3;
+	/*background-color: khaki;*/
+	text-align: center;
+}	
+
+h2 {
+	background-color: #FFD639;
+	margin-top: 0;
+}
+
+h3 {
+	color: white;
+	background-color: #DD6031;
+}
+
+

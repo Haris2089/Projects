@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Ayaan Pathan, 000900574, Bedroom File-->
+		<title>Sandy and Leslie's apartment</title>
+
+
+		<link href = "mobile.css" rel = "stylesheet" media = "screen" type = "text/css" />
+		<link href="apartment_layout.css" rel="stylesheet" type="text/css" />
+
+
+		<style type = "text/css">
+			body {
+				display: block;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		<header>
+		<h1 class="hcenter">Sandy and Leslie's Apartment</h1>
+
+		<p class="hcenter"><a href="apartment.html"><img src="images/apartmentfloorplan.jpg" alt="Apartment floor plan"  usemap="#Map"  /></a>
+		  <map name="Map" id="Map">
+			<area shape="rect" coords="40,100,188,269" href="bedroom.html" alt="Bedroom1" title="Bedroom1">
+			<area shape="circle" coords="343,339,50" href="diningroom.html" title="Diningroom">
+			<area shape="rect" coords="194,100,342,259" href="livingroom.html" alt="Living Room" title="Living Room">
+			<area shape="rect" coords="186,284,291,393" href="kitchen.html" alt="Kitchen" title="Kitchen">
+			<area shape="poly" coords="386,103,558,100,583,311,491,307,488,237,388,237" href="bedroom.html" alt="Bedroom2" title="Bedroom2">
+			<area shape="rect" coords="" href="#" title="Sorry, no view available for this room">
+		  </map>
+		</p>
+
+		<p class = "textmenu">
+
+		<span class = "textmenuitem"><a href = "apartment.html" >Apartment</a></span>
+		<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "bedroom.html">Bedroom 1</a></span>
+		<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "bedroom.html">Bedroom 2</a></span>
+		<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "diningroom.html">Dining Room</a></span>
+		<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "kitchen.html">Kitchen</a></span>
+		<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "livingroom.html">Living Room</a></span>
+		
+
+		</p>
+		</header>
+
+		<h2 class="hcenter">Bedroom Detail</h2>
+		<p class="hcenter"> <img src="images/bedroom_lg.jpg" width="600" height="399" alt="Bedroom Detail" /></p>
+
+
+		<h2>Apartment services:</h2>
+		<table border="1" cellspacing="0" cellpadding="5">
+			  <tr bgcolor="#C8BFC7">
+				<th align="left">Service</th>
+				<th align="left">Day/Hours</th>
+			  </tr>
+			  <tr>
+				<td>Gym</td>
+				<td rowspan="2"><p>Monday-Friday 6am - 10pm<br />
+				  Saturday 8am - 8pm<br />
+				  Sunday 8am - 5pm</p></td>
+			  </tr>
+			  <tr>
+				<td>Pool</td>
+			  </tr>
+			  <tr>
+				<td>Laundry</td>
+				<td>24/7</td>
+			  </tr>
+			  <tr bgcolor="#C5F4E0">
+				<td colspan="2">Please do not allow people you do not know to use these facilities.</td>
+			  </tr>
+			</table>
+		<p>For more information contact: <a href="mailto:sandy@apartment.com">Sandy@apartment.com</a> or <a href = "tel:9055551234">(905) 555-1234</a></p>
+		<p>&copy; Sandy and Leslie 2023</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+	</body><!-- InstanceEnd -->
+</html>

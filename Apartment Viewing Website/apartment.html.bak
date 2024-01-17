@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Ayaan Pathan, 000900574, Main File-->
+	<title>Sandy and Leslie's apartment</title>
+	
+	<link href = "mobile.css" rel = "stylesheet" media = "screen" type = "text/css">
+	<link href="apartment_layout.css" rel="stylesheet" type="text/css">
+
+	<style type = "text/css">
+
+	</style>
+
+</head>
+
+<body>
+	<header>
+	<h1 class="hcenter">
+	  
+	Sandy and Leslie's Apartment</h1>
+	<span class = "invis"><p class="hcenter">Click a room for a detailed view.</p></span>
+	<p class="hcenter"><a href="apartment.html">
+	
+	<img src="images/apartmentfloorplan.jpg" alt="Apartment floor plan"  usemap="#Map" >
+	</a>
+		<!-- note: coordinates not updated for each version of the lab -->
+	  <map name="Map" id="Map">
+		<area shape="rect" coords="40,100,188,269" href="bedroom.html" alt="Bedroom1" title="Bedroom1">
+		<area shape="circle" coords="343,339,50" href="diningroom.html" title="Diningroom">
+		<area shape="rect" coords="194,100,342,259" href="livingroom.html" alt="Living Room" title="Living Room">
+		<area shape="rect" coords="186,284,291,393" href="kitchen.html" alt="Kitchen" title="Kitchen">
+		<area shape="poly" coords="386,103,558,100,583,311,491,307,488,237,388,237" href="bedroom.html" alt="Bedroom2" title="Bedroom2">
+		<area shape="rect" coords="" href="#" title="Sorry, no view available for this room">
+	  </map>
+	</p>
+
+	<p class = "textmenu">
+
+	<span class = "textmenuitem"><a href = "apartment.html" >Apartment</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "bedroom.html">Bedroom 1</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "bedroom.html">Bedroom 2</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "diningroom.html">Dining Room</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "kitchen.html">Kitchen</a></span>
+	<span class = "textmenubar"> | </span><span class = "textmenuitem"><a href = "livingroom.html">Living Room</a></span>
+	
+
+	</p>
+	</header>
+	<section id = "survey">
+	<h2>Survey</h2>
+	<form id="form1" name="form1" method="post" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+
+	  <p>How did you find out about this apartment? Check any that apply:</p>
+	  <p>
+		<input type="checkbox" name="Web search" id="Web search" />
+		<label for="Web search">Web search</label>
+		<input type="checkbox" name="friend" id="friend" />
+		<label for="friend">Friend</label>
+		<input type="checkbox" name="newspaper" id="newspaper" />
+		<label for="newspaper">Newspaper</label>
+	  </p>
+	
+	
+		<input type="submit" name="submit" id="submit" value="Submit">
+		<input type="reset" name="reset" id="reset" value="Reset Form">
+	</form>
+	</section><!-- end rentalform -->
+	
+	<section id = "welcome">
+		<h2>Welcome Message</h2>
+		
+		<audio controls>
+			 <source src="media/apartment.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			<embed src = "media/apartment.mp3" type = "audio/mpeg" width = "250" height = "40"   autostart = "false">
+		</audio>
+		
+		<p>Transcript: Hello. Welcome to our apartment. You’ll really enjoy living here. The rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you!</p>
+
+	
+	</section><!-- end welcome -->
+	
+	
+	<section id = "services">
+	<h2>Apartment services:</h2>
+	<table border="1" cellspacing="0" cellpadding="5">
+	  <tr bgcolor="#C8BFC7">
+		<th align="left">Service</th>
+		<th align="left">Day/Hours</th>
+	  </tr>
+	  <tr>
+		<td>Gym</td>
+		<td rowspan="2"><p>Monday-Friday 6am - 10pm<br />
+		  Saturday 8am - 8pm<br />
+		  Sunday 8am - 5pm</p></td>
+	  </tr>
+	  <tr>
+		<td>Pool</td>
+	  </tr>
+	  <tr>
+		<td>Laundry</td>
+		<td>24/7</td>
+	  </tr>
+	  <tr bgcolor="#C5F4E0">
+		<td colspan="2">Please do not allow people you do not know to use these facilities.</td>
+	  </tr>
+	</table>
+	</section><!-- end services -->
+	
+	<section id = "location">
+	
+		<h2>Location</h2>
+		
+		<img src = "images/location.png" alt = "location map">
+	
+	</section><!-- end location -->
+	
+	
+	<section id = "gallery">
+		<h2>Gallery</h2>
+		<div class = "flex-container">
+			<div>
+				<h3>Balcony</h3>
+				<img src = "images/thumbnails/balcony_sm.jpg" alt = "balcony">
+			</div>
+			<div>
+				<h3>Bathroom</h3>
+				<img src = "images/thumbnails/bathroom_sm.jpg" alt = "bathroom">
+			</div>
+			<div>
+				<h3>Bedroom</h3>
+				<img src = "images/thumbnails/bedroom_sm.jpg" alt = "bedroom">
+			</div>
+			<div>
+				<h3>Dining Room</h3>
+				<img src = "images/thumbnails/diningroom_sm.jpg" alt = "dining room">
+			</div>
+			<div>
+				<h3>Kitchen</h3>
+				<img src = "images/thumbnails/kitchen_sm.jpg" alt = "kitchen">
+			</div>
+			<div>
+				<h3>Living Room</h3>
+				<img src = "images/thumbnails/livingroom_sm.jpg" alt = "livingroom">
+			<div>
+		</div>
+	
+	
+	</section><!-- end gallery -->
+	
+	<footer>
+		<p>For more information contact: <a href="mailto:SandyAndLeslie@example.com">SandyAndLeslie@example.com</a> or <a href = "tel:9055551234">(905) 555-1234</a></p>
+		<p>&copy; Sandy and Leslie 2023</p>
+	</footer>
+	
+
+</body>
+</html>
